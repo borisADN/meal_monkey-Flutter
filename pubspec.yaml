@@ -1,0 +1,73 @@
+name: food_delivery_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  otp_pin_field: ^1.4.1
+  flutter_rating_bar: ^4.0.1
+  flutter_launcher_icons: ^0.14.3
+  image_picker: ^1.1.2
+  google_maps_flutter: ^2.12.2
+  custom_map_markers: ^0.0.2+1
+  flutter_easyloading: ^3.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_logo.png"
+  adaptive_icon_background: "#ffffff" 
+  
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Baloo
+      fonts:
+        - asset: assets/fonts/Baloo2-Regular.ttf
+        - asset: assets\fonts\Baloo2-Medium.ttf
+          weight: 500
+        - asset: assets\fonts\Baloo2-SemiBold.ttf
+          weight: 600
+        - asset: assets\fonts\Baloo2-Bold.ttf
+          weight: 700
+        - asset: assets\fonts\Baloo2-ExtraBold.ttf
+          weight: 800
+        
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
