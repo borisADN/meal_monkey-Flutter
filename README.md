@@ -3,11 +3,16 @@
 A Food Delivery App
 
 Onboarding
-![Aperçu](assets/images/preview/preview_1.png)
+![Aperçu](./preview/preview_1.png)
 Auth screens
-![Aperçu](assets/images/preview/preview_2.png)
+![Aperçu](./preview/preview_2.png)
 Global View
-![Aperçu](assets/images/preview/preview_3.png)
+![Aperçu](./preview/preview_3.png)
 Google maps integration
-![Aperçu](assets/images/preview/preview_4.png)
+![Aperçu](./preview/preview_4.png)
 
+Demo
+
+![Demo](./preview/demo.gif)
+
+<a href="https://github.com/borisADN/meal_monkey-Flutter/raw/refs/heads/main/preview/video.mp4" target="_blank" rel="noopener noreferrer">▶️ Voir la vidéo</a>
